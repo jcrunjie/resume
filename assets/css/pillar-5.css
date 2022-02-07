@@ -7585,7 +7585,7 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0rem;
 }
 
 .ml-2,
@@ -7657,7 +7657,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.3rem;
 }
 
 .ml-5,
@@ -7762,7 +7762,9 @@ button.bg-dark:focus {
 }
 
 .p-4 {
-  padding: 0.25rem !important;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
 }
 
 .pt-4,
@@ -9692,7 +9694,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-header {
   background: #59578E;
   color: rgba(255, 255, 255, 0.9);
-  height: 100px;
+  height: 85px;
 }
 
 .resume-header .picture {
